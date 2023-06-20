@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './movies.css';
 
+const obtenerPeliculas = async (searchTerm, currentPage, setPeliculas, setTotalPages) => {
+  try {
+    const response = await axios.get('http://localhost:3001/movies', {
+      params: { title: searchTerm, page: currentPage, limit: 6 }
+    });
+
+    setPeliculas(response.data.movies);
+    setTotalPages(Math.ceil(response.data.totalCount / 6));
+  } catch (error) {
+    console.error('Error al obtener las películas', error);
+  }
+};
+
 function ListadoPeliculas() {
   const [peliculas, setPeliculas] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
 
-  const obtenerPeliculas = async () => {
-    try {
-      const response = await axios.get('http://localhost:3001/movies', {
-        params: { title: searchTerm, page: currentPage, limit: 6 }
-      });
-
-      setPeliculas(response.data.movies);
-      setTotalPages(Math.ceil(response.data.totalCount / 6));
-    } catch (error) {
-      console.error('Error al obtener las películas', error);
-    }
-  };
-
   useEffect(() => {
-    obtenerPeliculas();
+    obtenerPeliculas(searchTerm, currentPage, setPeliculas, setTotalPages);
   }, [searchTerm, currentPage]);
 
   const cambiarPagina = (newPage) => {
