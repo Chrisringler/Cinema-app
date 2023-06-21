@@ -42,6 +42,8 @@ La aplicación estará disponible en http://localhost:3000.
 Una vez que la aplicación esté en funcionamiento, puedes utilizar las siguientes funcionalidades:
 
 En el frontend:
+
+
 Lo primero que verás serán unas vistas para registrarte y luego iniciar sesión. Si no lo haces, no podrás navegar por la página.
 
 ---
