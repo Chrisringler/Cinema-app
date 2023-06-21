@@ -6,7 +6,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 
-app.use(cors({ origin: 'https://quiet-raindrop-acd2b0.netlify.app' }));
+app.use(cors({ origin: 'https://relaxed-salmiakki-cfb776.netlify.app' }));
 
 app.use(moviesRoutes);
 
