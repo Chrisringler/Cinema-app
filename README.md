@@ -5,6 +5,7 @@ Requisitos previos
 Asegúrate de tener instalado lo siguiente en tu máquina antes de ejecutar la aplicación:
 
 Node.js: Descarga e instala Node.js.
+
 MySQL: Descarga e instala MySQL.
 
 Configuración
