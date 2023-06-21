@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import NavBar from './components/navBar/NavBar';
-import UploadCSV from './components/ListPut/UploadCSV';
+import UploadCSV from './components/ListPost/UploadCSV';
 import DetallePelicula from './components/detalles/DetallePelicula';
 import FormCreateMovie from './components/formCreateMovie/FormCreateMovie';
 import Login from './components/login/Login';
