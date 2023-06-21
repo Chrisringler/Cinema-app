@@ -23,7 +23,7 @@ function UploadCSV() {
       const formData = new FormData();
       formData.append('file', selectedFile, selectedFile.name);
 
-      await axios.post('http://localhost:3001/movies/upload', formData);
+      await axios.post('https://cinema-app-production.up.railway.app/movies/upload', formData);
 
       alert('Archivo CSV enviado correctamente');
       navigate('/');

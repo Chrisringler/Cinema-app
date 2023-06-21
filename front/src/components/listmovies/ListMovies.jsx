@@ -5,7 +5,7 @@ import './movies.css';
 
 const obtenerPeliculas = async (searchTerm, currentPage, setPeliculas, setTotalPages) => {
   try {
-    const response = await axios.get('http://localhost:3001/movies', {
+    const response = await axios.get('https://cinema-app-production.up.railway.app/movies', {
       params: { title: searchTerm, page: currentPage, limit: 6 }
     });
 

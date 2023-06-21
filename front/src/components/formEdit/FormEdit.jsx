@@ -29,7 +29,7 @@ function FormEdit({ pelicula, onMovieUpdated }) {
     event.preventDefault();
 
     try {
-      const response = await axios.put(`http://localhost:3001/movies/${pelicula.id}`, editedFields);
+      const response = await axios.put(`https://cinema-app-production.up.railway.app/movies/${pelicula.id}`, editedFields);
 
       console.log(response.data); 
 

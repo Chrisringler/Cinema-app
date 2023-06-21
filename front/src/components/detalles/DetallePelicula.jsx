@@ -33,7 +33,7 @@ function DetallePelicula() {
   useEffect(() => {
     const obtenerPelicula = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/movies/${id}`);
+        const response = await axios.get(`https://cinema-app-production.up.railway.app/movies/${id}`);
         setPelicula(response.data.movie);
       } catch (error) {
         console.error('Error al obtener la película', error);

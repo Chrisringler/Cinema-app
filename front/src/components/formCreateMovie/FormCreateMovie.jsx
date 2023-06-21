@@ -25,7 +25,7 @@ function FormCreateMovie() {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3001/movies', {
+      const response = await axios.post('https://cinema-app-production.up.railway.app/movies', {
         title,
         description,
         year

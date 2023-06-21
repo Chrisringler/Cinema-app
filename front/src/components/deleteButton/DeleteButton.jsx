@@ -4,7 +4,7 @@ import axios from 'axios';
 function DeleteButton({ movieId, onMovieDeleted }) {
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://localhost:3001/movies/${movieId}`);
+      await axios.delete(`https://cinema-app-production.up.railway.app/movies/${movieId}`);
       onMovieDeleted(); 
     } catch (error) {
       console.error('Error al eliminarr la película', error);
