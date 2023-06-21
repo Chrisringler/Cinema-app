@@ -1,14 +1,14 @@
 # Cinema-app Aplicación de Películas
 Esta es una aplicación web que permite importar y administrar un listado de películas.
 
-Requisitos previos
+##Requisitos previos
 Asegúrate de tener instalado lo siguiente en tu máquina antes de ejecutar la aplicación:
 
-Node.js: Descarga e instala Node.js.
+###Node.js: Descarga e instala Node.js.
 
-MySQL: Descarga e instala MySQL.
+###MySQL: Descarga e instala MySQL.
 
-Configuración
+##Configuración
 Sigue estos pasos para configurar y ejecutar la aplicación:
 
 Backend
@@ -38,7 +38,7 @@ Inicia la aplicación frontend:
 npm start
 La aplicación estará disponible en http://localhost:3000.
 
-Uso
+##Uso
 Una vez que la aplicación esté en funcionamiento, puedes utilizar las siguientes funcionalidades:
 
 En el frontend:
