@@ -28,8 +28,17 @@ input[type="password"] {
   border-radius: 4px;
 }
 
-button[type="submit"],
 .register {
+  width: 100%;
+  padding: 10px;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #d6d5d5;
+  margin-bottom: 10px;
+}
+.login{
   width: 100%;
   padding: 10px;
   color: #fff;

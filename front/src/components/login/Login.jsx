@@ -63,7 +63,7 @@ const Login = ({ setIsAuthenticated }) => {
           <input type="password" value={password} onChange={handlePasswordChange} />
         </div>
         {error && <p className="error-message">{error}</p>}
-        <button type="submit">Iniciar sesión</button>
+        <button className='login' type="submit">Iniciar sesión</button>
       </form>
       {!showRegister && (
         <button className="register" onClick={handleRegisterClick}>

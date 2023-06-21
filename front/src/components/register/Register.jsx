@@ -51,7 +51,7 @@ const Register = ({ handleToggleForm }) => {
           <input type="password" value={password} onChange={handlePasswordChange} />
         </div>
         {error && <p className="error-message">{error}</p>}
-        <button type="submit">Registrar</button>
+        <button className='register-form' type="submit">Registrar</button>
       </form>
     </div>
   );

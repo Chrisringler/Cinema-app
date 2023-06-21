@@ -32,14 +32,14 @@
     border-radius: 4px;
   }
   
-  button[type="submit"] {
+  .register-form {
     width: 100%;
     padding: 10px;
-    color: #fff;
+    color: #333;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #333;
+    background-color: #d6d5d5;
 
   }
   
