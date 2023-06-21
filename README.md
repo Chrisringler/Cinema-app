@@ -1,24 +1,24 @@
 # Cinema-app Aplicación de Películas
 Esta es una aplicación web que permite importar y administrar un listado de películas.
 
-## Requisitos previos
+## `Requisitos previos`
 Asegúrate de tener instalado lo siguiente en tu máquina antes de ejecutar la aplicación:
 
 ### Node.js: Descarga e instala Node.js.
 
 ### MySQL: Descarga e instala MySQL.
 
-## Configuración
+## `Configuración`
 Sigue estos pasos para configurar y ejecutar la aplicación:
 
-### Backend
+### `Backend`
 
-#### Instala las dependencias:
+#### `Instala las dependencias:`
 
 npm install
 
 
-#### Configura la base de datos:
+#### `Configura la base de datos:`
 
 Crea una base de datos MySQL con el nombre que desees.
 
@@ -26,35 +26,35 @@ Crea una base de datos MySQL con el nombre que desees.
 Completa la información de conexión a la base de datos en el archivo .env.
 
 
-#### Crea las tablas en MySQL:
+#### `Crea las tablas en MySQL:`
 
 Dentro de la carpeta DB, encontrarás un archivo llamado database.sql.
 
 Copia y pega el contenido de este archivo en tu consola de MySQL para crear las tablas necesarias.
 
 
-#### Inicia el servidor:
+#### `Inicia el servidor:`
 
 npm run dev
 
 
 El servidor estará disponible en http://localhost:3001.
 
-### Frontend
+### `Frontend`
 
-#### Instala las dependencias:
+#### `Instala las dependencias:`
 
 npm install
 
 
-#### Inicia la aplicación frontend:
+#### `Inicia la aplicación frontend:`
 
 npm start
 
 
 La aplicación estará disponible en http://localhost:3000.
 
-## Uso
+## `Uso`
 Una vez que la aplicación esté en funcionamiento, puedes utilizar las siguientes funcionalidades:
 
 #### En el frontend:
