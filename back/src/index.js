@@ -6,12 +6,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 
-app.use(
-  cors({
-    origin: 'https://deploy--relaxed-salmiakki-cfb776.netlify.app',
-    optionsSuccessStatus: 200, 
-  })
-);
+app.use(cors({ origin: 'https://relaxed-salmiakki-cfb776.netlify.app' }));
 
 app.use(moviesRoutes);
 
