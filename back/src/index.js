@@ -6,7 +6,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 
-app.use(cors({ origin: 'https://cinema-app-production.up.railway.app' }));
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 app.use(moviesRoutes);
 

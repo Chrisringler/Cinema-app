@@ -19,7 +19,7 @@ const Register = ({ handleToggleForm }) => {
     event.preventDefault();
 
     try {
-      await axios.post('https://cinema-app-production.up.railway.app/register', { username, password });
+      await axios.post('http://localhost:3001/register', { username, password });
       setUsername('');
       setPassword('');
       setError('');
