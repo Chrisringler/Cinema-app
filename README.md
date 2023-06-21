@@ -11,7 +11,7 @@ Asegúrate de tener instalado lo siguiente en tu máquina antes de ejecutar la a
 ## Configuración
 Sigue estos pasos para configurar y ejecutar la aplicación:
 
-Backend
+### Backend
 
 Instala las dependencias:
 
@@ -28,7 +28,7 @@ Inicia el servidor:
 npm run dev
 El servidor estará disponible en http://localhost:3001.
 
-Frontend
+### Frontend
 
 Instala las dependencias:
 
@@ -43,9 +43,25 @@ Una vez que la aplicación esté en funcionamiento, puedes utilizar las siguient
 
 En el frontend:
 Lo primero que verás serán unas vistas para registrarte y luego iniciar sesión. Si no lo haces, no podrás navegar por la página.
+
+---
+
+
 En la página principal, verás un listado de películas. Puedes buscar películas por título utilizando el campo de búsqueda y navegar entre las diferentes páginas de resultados.
+
+---
+
+
 En la sección "Subir lista de películas", puedes importar un archivo CSV con el listado de películas haciendo clic en el botón "Seleccionar archivo".
+
+---
+
+
 En la página de detalles, puedes editar y eliminar la película seleccionada.
+
+---
+
+
 En la sección "Agregar Película", puedes crear una nueva película.
 
 
