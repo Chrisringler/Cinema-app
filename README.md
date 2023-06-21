@@ -16,16 +16,28 @@ Sigue estos pasos para configurar y ejecutar la aplicación:
 Instala las dependencias:
 
 npm install
+
+
 Configura la base de datos:
 
 Crea una base de datos MySQL con el nombre que desees.
+
+
 Completa la información de conexión a la base de datos en el archivo .env.
+
+
 Crea las tablas en MySQL:
 
-Dentro de la carpeta DB, encontrarás un archivo llamado database.sql. Copia y pega el contenido de este archivo en tu consola de MySQL para crear las tablas necesarias.
+Dentro de la carpeta DB, encontrarás un archivo llamado database.sql.
+
+Copia y pega el contenido de este archivo en tu consola de MySQL para crear las tablas necesarias.
+
+
 Inicia el servidor:
 
 npm run dev
+
+
 El servidor estará disponible en http://localhost:3001.
 
 ### Frontend
@@ -33,9 +45,13 @@ El servidor estará disponible en http://localhost:3001.
 Instala las dependencias:
 
 npm install
+
+
 Inicia la aplicación frontend:
 
 npm start
+
+
 La aplicación estará disponible en http://localhost:3000.
 
 ## Uso
